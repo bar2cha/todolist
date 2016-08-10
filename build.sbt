@@ -10,7 +10,10 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  evolutions,
+  "com.typesafe.play" %% "anorm" % "2.4.0",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
+
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
